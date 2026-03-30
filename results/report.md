@@ -1,6 +1,6 @@
 # AWS Cloud Performance Analysis Report
 
-**Author:** motomamik
+**Author:** Karolina Węgrzyn
 
 **Date:** 2026-03-29
 
@@ -19,3 +19,7 @@ The verification confirmed that all execution environments are mathematically co
 The successful terminal outputs, showing the matching JSON result arrays from all four endpoints, have been saved to the results/assignment-1-endpoints.txt file as required.
 
 ---
+
+## Assignment 2: Scenario A — Cold Start Characterization
+
+The goal of this assignment was to measure and analyze the cold start latency of AWS Lambda functions when deployed using a standard ZIP archive versus an container image.To make sure I was measuring a true cold start, I let both functions sit idle for over 20 minutes so that AWS would de-provision the execution environments before I started my test of 30 sequential requests.
