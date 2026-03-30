@@ -9,5 +9,5 @@ Lambda Container
 Fargate
 {"instance_id":"ip-172-31-91-208.ec2.internal","query_time_ms":23.734,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
 
-
 EC2
+{"instance_id":"55397f053f1e","query_time_ms":31.151,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
