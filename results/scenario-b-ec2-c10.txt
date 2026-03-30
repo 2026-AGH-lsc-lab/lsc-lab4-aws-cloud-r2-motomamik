@@ -1,47 +1,44 @@
 === ec2 | concurrency=10 | 500 requests ===
 Summary:
-  Success rate:	0.00%
-  Total:	250071213440.0000 ns
-  Slowest:	-inf ns
-  Fastest:	inf ns
-  Average:	NaN ns
-  Requests/sec:	1.9994
+  Success rate:	100.00%
+  Total:	9209.5843 ms
+  Slowest:	308.2753 ms
+  Fastest:	58.6696 ms
+  Average:	183.3939 ms
+  Requests/sec:	54.2913
 
-  Total data:	0 B
-  Size/request:	NaN
-  Size/sec:	0 B
+  Total data:	144.89 KiB
+  Size/request:	296 B
+  Size/sec:	15.73 KiB
 
 Response time histogram:
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
-    NaN ns [0] |
+   58.670 ms [1]   |
+   83.630 ms [2]   |
+  108.591 ms [17]  |■■■
+  133.551 ms [37]  |■■■■■■■■
+  158.512 ms [67]  |■■■■■■■■■■■■■■■
+  183.472 ms [111] |■■■■■■■■■■■■■■■■■■■■■■■■■
+  208.433 ms [140] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  233.394 ms [87]  |■■■■■■■■■■■■■■■■■■■
+  258.354 ms [23]  |■■■■■
+  283.315 ms [11]  |■■
+  308.275 ms [4]   |
 
 Response time distribution:
-  10.00% in NaN ns
-  25.00% in NaN ns
-  50.00% in NaN ns
-  75.00% in NaN ns
-  90.00% in NaN ns
-  95.00% in NaN ns
-  99.00% in NaN ns
-  99.90% in NaN ns
-  99.99% in NaN ns
+  10.00% in 130.1475 ms
+  25.00% in 159.7293 ms
+  50.00% in 187.4105 ms
+  75.00% in 208.7771 ms
+  90.00% in 228.5930 ms
+  95.00% in 248.5243 ms
+  99.00% in 276.8678 ms
+  99.90% in 308.2753 ms
+  99.99% in 308.2753 ms
 
 
 Details (average, fastest, slowest):
-  DNS+dialup:	NaN ns, inf ns, -inf ns
-  DNS-lookup:	NaN ns, inf ns, -inf ns
+  DNS+dialup:	0.4176 ms, 0.2565 ms, 1.1423 ms
+  DNS-lookup:	0.0090 ms, 0.0012 ms, 0.1720 ms
 
 Status code distribution:
-
-Error distribution:
-  [500] timeout
-
+  [200] 500 responses
